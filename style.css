@@ -1,0 +1,62 @@
+html,
+body {
+    background: #5c258d;
+    background: -webkit-linear-gradient(to right, #4389a2, #5c258d);
+    background: linear-gradient(to right, #4389a2, #5c258d);
+    margin: 0;
+    padding: 0;
+    block-size: 100%;
+    font-family: Arial, sans-serif; /* Utilisation d'une police de caractères de secours */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    block-size: 100%;
+}
+
+.col {
+    text-align: center;
+    color: white;
+}
+
+.bg {
+    background-color: rgba(
+        124,
+        124,
+        124,
+        0.8
+    ); /* Utilisation d'un fond semi-transparent */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Ajout d'une ombre */
+}
+
+#citation {
+    font-size: 2em;
+    font-family: 'Satisfy', cursive;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+    margin-block-end: 10px;
+}
+
+#auteur {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-block-end: 20px;
+}
+
+#nouveau {
+    background: #ff9966;
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Ajout d'une transition */
+}
+
+#nouveau:hover {
+    background-color: #ff5e62; /* Changement de couleur au survol */
+}
